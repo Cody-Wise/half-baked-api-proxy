@@ -24,6 +24,8 @@ export default function YelpSearch() {
 
     setLoading(false);
 
+    setQuery('');
+
     // set the loading state to true
     // use fetch to make a request to your netlify yelp function. Be sure to pass the search query as a query param in the URL
 
