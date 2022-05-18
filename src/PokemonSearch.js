@@ -16,8 +16,6 @@ export default function PokemonSearch() {
 
     const allPokemon = await getPokemon(query);
 
-    console.log(allPokemon.data.results);
-
     setPokemon(allPokemon.data.results);
 
     setLoading(false);

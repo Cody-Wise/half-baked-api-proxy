@@ -20,8 +20,6 @@ export default function YelpSearch() {
 
     setBusiness(businesses);
 
-    console.log(businesses);
-
     setLoading(false);
 
     setQuery('');
